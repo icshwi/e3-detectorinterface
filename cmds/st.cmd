@@ -11,6 +11,8 @@ epicsEnvSet(	   "TST"           "4")	#EVG sends TS Test pulse to ADC
 epicsEnvSet(       "TARGET"     "FPGA")
 epicsEnvSet( 	   "EVR0" 	"EVR")
 
+epicsEnvSet("STREAM_PROTOCOL_PATH", $(detectorinterface_DB))
+
 # Set up asyn for stream device
 drvAsynSerialPortConfigure "COM1", "/dev/ttyUSB0"
 asynOctetSetInputEos ("COM1",0,"\r\n")
