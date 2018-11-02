@@ -1,0 +1,16 @@
+EPICS_BASE=/epics/base-3.15.5
+
+E3_REQUIRE_NAME:=require
+E3_REQUIRE_VERSION:=3.0.0
+
+
+# ONLY IF this module has the sequencer dependency. However,
+# in most case, we don't need to enable the following line,
+# the default - latest version will be used
+#E3_SEQUENCER_NAME:=sequencer
+#E3_SEQUENCER_VERSION:=2.1.21
+
+
+# The definitions shown below can also be placed in an untracked RELEASE.local
+-include $(TOP)/../RELEASE.local
+-include $(TOP)/configure/RELEASE.local

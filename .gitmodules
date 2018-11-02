@@ -1,0 +1,4 @@
+[submodule "m-epics-detectorinterface"]
+	path = m-epics-detectorinterface
+	url = https://bitbucket.org/europeanspallationsource/m-epics-detectorinterface
+	ignore = all

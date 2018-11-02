@@ -1,0 +1,20 @@
+>>
+Script is used     : e3TemplateGenerator.bash
+Script Path        : /home/jhlee/gitsrc/e3-tools/e3TemplateGenerator
+User               : jhlee
+Log Time           : 2018Nov02-1038-22CET
+e3 repo Hash       : 81be49d
+
+>>
+>> Your sources are located in https://bitbucket.org/europeanspallationsource.
+>> git submodule will be used.
+>> 
+EPICS_MODULE_NAME  : detectorinterface
+E3_MODULE_SRC_PATH : m-epics-detectorinterface
+EPICS_MODULE_URL   : https://bitbucket.org/europeanspallationsource
+E3_TARGET_URL      : https://github.com/icshwi
+>> 
+e3 module name     : e3-detectorinterface
+e3 module url full : https://bitbucket.org/europeanspallationsource/m-epics-detectorinterface
+e3 target url full : https://github.com/icshwi/e3-detectorinterface
+>> 
