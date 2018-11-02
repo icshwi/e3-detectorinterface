@@ -1,9 +1,9 @@
 #
 EPICS_MODULE_NAME:=detectorinterface
 
-EPICS_MODULE_TAG:=master
+EPICS_MODULE_TAG:=tags/v0.3
 #
-E3_MODULE_VERSION:=master
+E3_MODULE_VERSION:=0.3.0
 
 # DEPENDENT MODULE VERSION
 # Example, 
