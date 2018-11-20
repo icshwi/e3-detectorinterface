@@ -1,0 +1,14 @@
+
+>>
+Update Log Time    : 2018Nov20-1522-44CET
+>>
+Script is used     : e3TemplateGenerator.bash
+Script Path        : /home/jhlee/gitsrc/e3-tools/e3TemplateGenerator
+User               : jhlee
+e3 repo Hash       : f5769fb
+
+EPICS_MODULE_NAME  :                  detectorinterface
+E3 MODULE VERSION  :                              0.3.0
+EPICS BASE VERSION :                        base-3.15.5
+E3 REQUIRE VERSION :                              3.0.2
+>>
